@@ -165,30 +165,33 @@
             
             <div class="section">
                 <h2>📁 Dokumen Tersedia</h2>
+                <div class="info-box">
+                    <p><strong>Catatan:</strong> Dokumen-dokumen di bawah adalah contoh. Setelah Anda mengunggah file PDF pertama, edit file <code>index.html</code> untuk menambahkan link ke dokumen Anda yang sebenarnya.</p>
+                </div>
                 <div class="pdf-list">
-                    <!-- Contoh item PDF - Tambahkan lebih banyak sesuai kebutuhan -->
+                    <!-- Contoh item PDF - Ganti dengan dokumen Anda sendiri -->
                     <div class="pdf-item">
                         <h3>🗺️ Peta Desa</h3>
                         <p>Infografis peta wilayah Desa Jajarwayang dengan detail lokasi penting</p>
-                        <a href="pdfs/peta-desa.pdf" target="_blank">Buka PDF</a>
+                        <p style="color: #999; font-size: 0.85em;"><em>(Contoh - ganti dengan file Anda)</em></p>
                     </div>
                     
                     <div class="pdf-item">
                         <h3>📈 Data Demografi</h3>
                         <p>Statistik penduduk dan demografis Desa Jajarwayang</p>
-                        <a href="pdfs/data-demografi.pdf" target="_blank">Buka PDF</a>
+                        <p style="color: #999; font-size: 0.85em;"><em>(Contoh - ganti dengan file Anda)</em></p>
                     </div>
                     
                     <div class="pdf-item">
                         <h3>🏛️ Struktur Pemerintahan</h3>
                         <p>Bagan struktur organisasi pemerintahan desa</p>
-                        <a href="pdfs/struktur-pemerintahan.pdf" target="_blank">Buka PDF</a>
+                        <p style="color: #999; font-size: 0.85em;"><em>(Contoh - ganti dengan file Anda)</em></p>
                     </div>
                     
                     <div class="pdf-item">
                         <h3>💼 Program Kerja</h3>
                         <p>Infografis program kerja dan kegiatan desa</p>
-                        <a href="pdfs/program-kerja.pdf" target="_blank">Buka PDF</a>
+                        <p style="color: #999; font-size: 0.85em;"><em>(Contoh - ganti dengan file Anda)</em></p>
                     </div>
                 </div>
             </div>
@@ -209,8 +212,14 @@
         </main>
         
         <footer>
-            <p>&copy; 2024 Desa Jajarwayang. Dibuat dengan ❤️ untuk transparansi dan akses informasi publik.</p>
+            <p>&copy; <span id="year"></span> Desa Jajarwayang. Dibuat dengan ❤️ untuk transparansi dan akses informasi publik.</p>
         </footer>
+    </div>
+    
+    <script>
+        // Set current year dynamically
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
     </div>
 </body>
 </html>

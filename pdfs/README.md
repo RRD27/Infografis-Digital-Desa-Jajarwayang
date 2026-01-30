@@ -42,4 +42,4 @@ GitHub memiliki batasan ukuran file:
 - Maksimal 100 MB per file
 - Repository total sebaiknya tidak melebihi 1 GB
 
-Jika file terlalu besar, pertimbangkan untuk mengkompresinya terlebih dahulu.
+Jika file terlalu besar, pertimbangkan untuk mengompresnya terlebih dahulu menggunakan tools seperti Ghostscript atau Adobe Acrobat.

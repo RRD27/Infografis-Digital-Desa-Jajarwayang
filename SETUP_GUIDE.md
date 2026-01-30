@@ -208,7 +208,7 @@ Value: 185.199.111.153
 ## ✨ Tips & Best Practices
 
 1. **Ukuran File**: Batasi ukuran PDF maksimal 10-20 MB untuk loading cepat
-2. **Kompresi**: Gunakan tools seperti SmallPDF atau Adobe Acrobat untuk kompresi
+2. **Kompresi**: Gunakan tools seperti Ghostscript (offline/open source) atau SmallPDF (online) untuk kompresi. **Perhatian:** Untuk dokumen sensitif, gunakan tools offline untuk menjaga privasi data.
 3. **Penamaan**: Gunakan nama yang deskriptif dan SEO-friendly
 4. **Organisasi**: Gunakan subfolder di `pdfs/` jika punya banyak kategori:
    - `pdfs/2024/laporan-januari.pdf`
